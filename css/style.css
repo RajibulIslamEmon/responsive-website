@@ -8,6 +8,23 @@
  ------------------------------*/
 body {
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+.button-part {
+  font-size: small;
+  border: 1px solid #E02C6D;
+  padding: 10px 24px 10px 24px;
+  border-radius: 5px;
+  background-color: #E02C6D;
+  transition: 2s;
+}
+
+.button-part:hover {
+  background-color: pink;
+  color: black;
 }
 
 /*--------------- 
@@ -23,17 +40,24 @@ body {
 .navigation {
   display: flex;
   justify-content: space-between;
-  margin: 42px 156px 67px 156px;
+  margin: 42px 156px 67px 117px;
 
 }
 
 .nav-bar a {
   color: #FFFFFF;
   margin-right: 36px;
+  font-size: x-small;
+  text-decoration: none;
 }
 
 .login-bar a {
   color: #FFFFFF;
+  text-decoration: none;
+}
+
+.fa-sign-in-alt {
+  margin-right: 8px;
 }
 
 .banner-and-heading-part {
@@ -41,13 +65,21 @@ body {
   justify-content: space-around;
 }
 
-.heading {
-  margin: 60px 0 0 0;
-}
-
 .heading h1,
 a {
   color: #FFFFFF;
+}
+
+.heading h1 {
+  font-size: 45px;
+}
+
+.heading a {
+  text-decoration: none;
+}
+
+.fa-arrow-right {
+  margin-left: 8px;
 }
 
 .banner img {
