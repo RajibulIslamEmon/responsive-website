@@ -124,3 +124,32 @@ a {
   width: 300px;
   height: 237px;
 }
+
+/*----------------------
+  all highlight style 
+----------------------*/
+.highlight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 165px;
+}
+
+.highlight-info {
+  width: 469px;
+  height: 309px;
+  margin-right: 25px;
+}
+
+.highlight-info h1 {
+  font-size: 30px;
+}
+
+.highlight-info a {
+  text-decoration: none;
+}
+
+.highlight-vid img {
+  width: 567px;
+  height: 427px;
+}
