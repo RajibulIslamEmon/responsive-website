@@ -153,3 +153,32 @@ a {
   width: 567px;
   height: 427px;
 }
+
+/*---------------- 
+  footer style 
+-----------------*/
+.footer-part {
+  display: flex;
+  justify-content: center;
+  margin-top: 158px;
+}
+
+.footer img {
+  width: 300.87px;
+  height: 110px;
+}
+
+.footer-media {
+  margin-left: 78px;
+}
+
+.footer-media a {
+  color: black;
+  margin-left: 14px;
+}
+
+.footer-text {
+  width: 236px;
+  height: 31px;
+  margin-left: 50px;
+}
