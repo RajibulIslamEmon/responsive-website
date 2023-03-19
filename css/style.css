@@ -225,3 +225,58 @@ a {
   height: 31px;
   margin-left: 50px;
 }
+
+/*---------------
+  Media queries 
+----------------*/
+
+/* for ipad pro device */
+
+@media (max-width:1024px) and (max-height:1366px) {
+  .navigation {
+    margin: 42px 156px 67px 49px;
+    justify-content: start;
+
+  }
+
+  .nav-bar a {
+    margin-right: 10px;
+  }
+
+  .nav-bar {
+    margin-right: 163px;
+  }
+
+  .login-bar a {
+    margin-left: 200px;
+  }
+
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .highlight {
+    flex-direction: column-reverse;
+  }
+
+  .highlight-vid img {
+    width: 698px;
+  }
+
+  .highlight-info {
+    width: 676px;
+  }
+
+  .extra-area {
+    justify-content: space-between;
+  }
+
+  .feed-part {
+    margin-left: 30px;
+  }
+
+  .news-part {
+    margin-right: -30px;
+  }
+
+}
